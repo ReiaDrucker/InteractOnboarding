@@ -1,0 +1,16 @@
+---
+title: "Interact Onboarding Exercises"
+output: html_notebook
+---
+
+```{r}
+install.packages("tidyverse")
+library("tidyverse")
+install.packages("dplyr")
+library("dplyr")
+```
+
+```{r}
+cchs <- read_csv("cchs.csv")
+```
+
